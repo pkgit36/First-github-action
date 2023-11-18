@@ -2,9 +2,9 @@ name: first-github-action
 on: workflow_dispatch
 jobs:
   first-job: 
-       runs-on: ubuntu-latest
-       steps: 
-          - name: Print Message
-            run: echo "My first github action pipeline"
-          - name: Print Date
-            run: date
+    runs-on: ubuntu-latest
+      steps: 
+        - name: Print Message
+          run: echo "My first github action pipeline"
+        - name: Print Date
+          run: date
